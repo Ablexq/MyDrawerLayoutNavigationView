@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_drawer_layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/drawer_layout_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doclick"
+        android:text="@string/title_activity_drawer_layout_one" />
+
+    <Button
+        android:id="@+id/drawer_layout_below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doclick"
+        android:text="@string/title_activity_drawer_layout_below" />
+
+    <Button
+        android:id="@+id/drawer_layout_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doclick"
+        android:text="@string/title_activity_drawer_layout_other" />
+
+    <Button
+        android:id="@+id/simple_drawer_layout_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doclick"
+        android:text="simple_drawe" />
+
+    <Button
+        android:id="@+id/simple_navi_layout_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doclick"
+        android:text="simple_navi" />
+
+    <Button
+        android:id="@+id/fab_layout_below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doclick"
+        android:text="fab" />
+
+    <Button
+        android:id="@+id/bottom_layout_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doclick"
+        android:text="bottom_sheeet" />
+</LinearLayout>
